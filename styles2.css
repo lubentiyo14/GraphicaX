@@ -1,0 +1,143 @@
+body {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+.section {
+    width: 400px;
+    background-color: #363636;
+    border: 2px solid  #ffc64d;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    color:  white;
+}
+.section-header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.divider {
+    height: 2px;
+    background:  #ffc64d;
+    margin: 10px 0;
+}
+.content {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.card {
+    background-color: #2a2a2a;
+    border: 2px solid  #ffc64d;
+    border-radius: 20px;
+    width: 500px;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+}
+.outer-circle {
+    width: 110px;
+    height: 110px;
+    background-color: transparent;
+    border: 3px solid  #ffc64d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+.profile-image {
+    width: 90px;
+    height: 90px;
+    background-color:  #ffc64d;
+    border-radius: 50%;
+}
+.text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.button {
+    display: flex;
+    background-color: #ffc64d;
+    color: black;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+.button:hover {
+    background-color:#ffbb28;
+    transform: scale(1.05);
+}
+
+.button2{
+    display: block;
+    background-color: #ffc64d;
+    color: black;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button img {
+    width: 40px;
+    height: 40px;
+    margin-right: 100px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 15px 0;
+}
+.gallery img {
+    width: 100px;
+    border-radius: 8px;
+    background-color: #333; /* Warna placeholder */
+}
+
+.gallery2 {
+    width: 100px;
+    background-color: #363636;
+    border: 2px solid  #ffc64d;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    color:  white;
+}
